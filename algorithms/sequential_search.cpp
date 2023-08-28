@@ -7,17 +7,17 @@ int main(void) {
 	int key, i;
 	int list[SIZE] = { 1,2,3,4,5,6,7,8,9 };
 
-	printf("Å½»öÇÒ °ª ÀÔ·Â : ");
+	printf("íƒìƒ‰í•  ê°’ ì…ë ¥ : ");
 	scanf("%d", &key);
 
 	for (i = 0; i < SIZE; i++) {
 		if (list[i] == key) {
-			printf("ÀÎµ¦½º À§Ä¡ : %d\n", i);
+			printf("ì¸ë±ìŠ¤ ìœ„ì¹˜ : %d\n", i);
 			break;
 		}
 	}
 
-	printf("Å½»öÁ¾·á\n");
+	printf("íƒìƒ‰ì¢…ë£Œ\n");
 
 	return 0;
 }
