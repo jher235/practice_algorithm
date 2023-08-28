@@ -7,9 +7,9 @@ int binary_search(int list[], int n, int key);
 int main(void) {
 	int key;
 	int grade[SIZE] = { 2,6,11,13,17,20,22,25,29,32,35,43,46,53,55,60};
-	printf("Å½»öÇÒ °ªÀ» ÀÔ·Â : ");
+	printf("íƒìƒ‰í•  ê°’ì„ ì…ë ¥ : ");
 	scanf("%d", &key);
-	printf("Å½»ö°á°ú = %d", binary_search(grade, SIZE, key));
+	printf("íƒìƒ‰ê²°ê³¼ = %d", binary_search(grade, SIZE, key));
 	
 
 
